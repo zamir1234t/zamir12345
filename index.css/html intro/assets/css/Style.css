@@ -1,8 +1,38 @@
-
-.wrapper button{
-    background-color: green
+.box{
+  border-style: solid;
+  height: 10cm;
+  width: 20cm;
+  margin: auto;
+  background-color: red;
+ 
+}
+.box1{
+  border-style: solid;
+  height: 9cm;
+  width: 700px;
+  margin: auto;
+  margin-top: 15px;
+  background-color: blue;
+ 
 }
 
-.wrapper .heading:p{
-    background-color: red;
+.box2{
+  border-style: solid;
+  height: 8cm;
+  width: 650px;
+  margin: auto;
+  margin-top: 15px;
+  background-color: orange;
+ 
+}
+
+.box3{
+  border-style: solid;
+  height: 7cm;
+  width: 600px;
+  margin: auto;
+  margin-top: 15px;
+  background-color: green;
+  text-align: center;
+
 }
