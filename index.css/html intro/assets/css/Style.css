@@ -4,7 +4,7 @@
   width: 20cm;
   margin: auto;
   background-color: red;
- 
+  margin-top: 3cm;
 }
 .box1{
   border-style: solid;
@@ -13,7 +13,6 @@
   margin: auto;
   margin-top: 15px;
   background-color: blue;
- 
 }
 
 .box2{
@@ -23,7 +22,6 @@
   margin: auto;
   margin-top: 15px;
   background-color: orange;
- 
 }
 
 .box3{
@@ -34,5 +32,5 @@
   margin-top: 15px;
   background-color: green;
   text-align: center;
-
 }
+
