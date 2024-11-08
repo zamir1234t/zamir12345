@@ -73,6 +73,9 @@ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100
     margin-top: 10px;
     margin-left: 130px;
     color: black;
+    border: none;
+    outline: none;
+    text-decoration: none;
 }
 
 .dem label{
@@ -102,3 +105,4 @@ input{
 .span{
     margin-top: 50px;
 }
+
