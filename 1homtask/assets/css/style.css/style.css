@@ -1,0 +1,74 @@
+/* .black_border{
+    width: 700px;
+    position: relative;
+    left: 400px;
+    height: 250px;
+    border: 2px solid black;
+    z-index: 1;
+    background-color: black;
+}
+
+.red_border{
+    width: 200px;
+    height: 400px;
+    position: relative;
+    border: 2px solid red;
+    right: 150px;
+    top: 100px;
+    background-color: red;
+}
+
+.green_border{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: 2px solid green;
+    z-index: 2;
+   top: 300px;
+   border-left: none;
+   border-bottom: none;
+   background-color: green;
+   right: 2px;
+
+} */
+
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 2100px;
+}
+
+.div{
+  position: relative;
+  background-image: url("https://www.shutterstock.com/image-photo/captivating-expanse-cosmos-photograph-emerges-260nw-2479305185.jpg");
+  width: 1340px;
+  height: 540px;
+  top: 100px;
+    background-size: cover;
+   background-attachment: fixed;   
+   
+}
+
+.div a{
+  position: absolute;
+  left: 200px;
+  top: 90px;
+  color: white;
+  text-decoration: none;
+}
+
+
+  
+.loc ul > li{
+  position: absolute;
+  top: 90px;
+    left: 1000px;
+    list-style: none;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+} */

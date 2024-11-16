@@ -39,6 +39,7 @@
 } */
 
 
+
 body{
     background: rgb(63,94,251);
 background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
@@ -46,19 +47,20 @@ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100
 
 .dem {
     border: 1px solid white;
-    width: 300px;
+    width: 350px;
     height: 550px;
     background-color: white ;
     text-align: center;
      margin-inline-start: 500px;
      padding: 10px;
+     border-radius: 10px;
 }
 
 button{
     background: rgb(63,94,251);
 background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
   border-radius: 30px;
-  padding: 10px 100px ;
+  padding: 10px 120px ;
   margin: 10px;
   border: none;
 }
@@ -66,12 +68,12 @@ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100
 .dem input{
     border: 0;
     border-bottom: 1px solid;
-    padding: 10px 20px;
+    padding: 10px 40px;
 }
 
 .div a{
     margin-top: 10px;
-    margin-left: 130px;
+    margin-left: 190px;
     color: black;
     border: none;
     outline: none;
@@ -96,6 +98,8 @@ input{
 }
 
 .icon{
+    position: relative;
+    right: 40px;
     margin-top: 15px;
 }
 
@@ -104,5 +108,11 @@ input{
 }
 .span{
     margin-top: 50px;
+}
+
+.dem i{
+    position: relative;
+    left: 40px;
+    margin-right: 10px;
 }
 
