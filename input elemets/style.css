@@ -18,7 +18,8 @@
     height: 50px;
     margin: 60px;
     background-color: blue;
-    
+    border-radius: 10px;
+    /* cursor: pointer; */
 }
 .box3{
     color: red;
@@ -27,18 +28,17 @@
 
 }
 
-/* *{
-    border: 2px solid green;
-} */
+
  
 button{
   background-color: blue;
   color: white;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
-a{
-    color: black;
-    background-color: brown;   
+.box3 span{
+    color: blue;
 }
 
 input::placeholder{
@@ -46,9 +46,8 @@ input::placeholder{
 }
 
 i{
-    color: blue;
-    margin: 10px;
-    background-color: black;
+    color: grey;
+    margin: 5px;
 }
 
 

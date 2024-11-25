@@ -32,7 +32,7 @@
 
 } */
 
-/* *{
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -64,11 +64,26 @@ body{
 
   
 .loc ul > li{
-  position: absolute;
+  position: relative;
   top: 90px;
     left: 1000px;
     list-style: none;
     color: white;
     cursor: pointer;
-    margin: 10px;
-} */
+     margin: 10px;
+     display: inline;
+}
+
+.col{
+  position: relative;
+  left: 450px;
+  color: white;
+  top: 200px;
+ font-size: 60px;
+}
+
+.col span{
+  font-size: 18px;
+  font-weight: normal;
+  color: grey;
+}
