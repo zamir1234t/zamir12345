@@ -45,6 +45,13 @@
     margin: 20px ;
 }
 
+.cart .logo i{
+    color: green;
+}
+
+.cart .logo span{
+    color: black;
+}
 
 
 .search{

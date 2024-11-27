@@ -1,0 +1,25 @@
+@media (min-width:1008px){
+   .col-lg-1{
+    width: calc(100% * 1 / 12);
+   }
+}
+
+body{
+  width: 500px;
+}
+
+.col-lg-1 img{
+    /* position: relative;
+    left: 50px; */
+    width: 1250px;
+   height: 600px;
+}
+
+.col-lg-1 p{
+    position: relative;
+    left: 50px 0px;
+    
+}
+
+
+
