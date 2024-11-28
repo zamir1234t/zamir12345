@@ -17,14 +17,21 @@ body{
     width: 100px;
     height: 50px;
     position: absolute;
-    background-color: green;
+    /* background-color: green; */
+    font-size: 40px;
     color: black;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: move 20s linear infinite, colgroup  ;
+    animation: move 20s linear infinite;
 }
+
+.dvd-logo p{
+    animation: color 20s linear infinite;
+    border-radius: 50px;
+}
+
 
 @keyframes move {
  0%{top: 50%; left: 100px;}
@@ -33,10 +40,11 @@ body{
  75%{top: calc(100% - 50px); left: 50%;}
  100%{top: 10%; left: 100px;}
 }
-@keyframes colgroup {
-    0%{background-color: red;}
-    25%{background-color: blue;}
-    50%{background-color: chartreuse;}
-    75%{background-color: green;}
-    100%{background-color: purple;}
+
+@keyframes color {
+    0%{color: red;}
+    25%{color: blue;}
+    50%{color: chartreuse;}
+    75%{color: green;}
+    100%{color: purple;}
 }
