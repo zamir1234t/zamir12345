@@ -18,9 +18,9 @@ body{
     height: 50px;
     position: absolute;
     /* background-color: green; */
-    font-size: 40px;
+    font-size: 5    0px;
     color: black;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     display: flex;
     justify-content: center;
     align-items: center;

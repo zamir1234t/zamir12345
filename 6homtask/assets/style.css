@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.start p {
+    font-size: 20px;
+    color: white;
+    background: rgb(10, 9, 27);
+    background: linear-gradient(90deg, rgb(10, 9, 20) 100%, rgba(8, 4, 50, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    padding: 20px;
+}
+
+.platvorm {
+    position: absolute;
+    left: 950px;
+    top: 20px;
+    color: white;
+}
+
+.platvorm ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.platvorm ul>li:not(:first-child) {
+    margin-left: 10px;
+}
+
+.platvorm li:hover {
+    color: green;
+    cursor: pointer;
+}
+
+
+.image_color {
+    height: 600px;
+    width: 100%;
+    background-color: rgb(26, 188, 156);
+}
+
+.image img {
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 250px;
+}
+
+.image {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.color {
+    font-size: 90px;
+    color: white;
+}
+
+.sme {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.sme p {
+    padding-top: 20px;
+}
+
+.sme:nth-child(span) {
+    width: 100;
+}
+
+.logo img {
+    padding-top: 90px;
+    width: 400px;
+}
+
+.pic-logo .model {
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+    color: grey;
+}
+
+.about {
+    background: rgb(26, 188, 156);
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+
+.about .text3 {
+    position: relative;
+    right: 40%;
+    font-size: 20px;
+}
+
+
+.about .div_text3 {
+    font-size: 30px;
+    position: relative;
+    right: 250px;
+}
+
+.text1 {
+    position: relative;
+    left: 500px;
+    bottom: 120px;
+    color: white;
+}
+
+.active .text1 button {
+    position: relative;
+    top: 50px;
+    right: 28%;
+    padding: 10px;
+    background: rgb(26, 188, 156);
+    color: white;
+    cursor: pointer;
+}
+
+.active .text1 button:hover {
+    background-color: white;
+    color: black;
+}
+
+.text1 button span{
+    margin-left: 10px;
+}
+
+.contact-leg p{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    color: rgb(98, 122, 122);
+}
+
+.contact-leg i{
+position: relative;
+left: 610px;
+top: 20px;
+font-size: 40px;
+color: rgb(98, 122, 122);
+}
+
+.contact-leg .input{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact-leg .input input{
+    padding: 20px;
+    width: 400px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+button{
+    padding: 20px;
+    width: 90px;
+    background: rgb(26, 188, 156);
+}
