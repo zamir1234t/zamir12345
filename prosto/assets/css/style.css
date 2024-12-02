@@ -1,0 +1,16 @@
+.text li{
+    list-style: none;
+    display: inline;
+    margin-left: 5px;
+    position: relative;
+    bottom: 55px;
+    cursor: pointer;
+}
+
+.text ul{
+    margin-right: 30px;
+}
+
+.text li:hover{
+    color: green;
+}

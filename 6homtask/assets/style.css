@@ -85,6 +85,10 @@
     color: grey;
 }
 
+.pic-logo .logo:hover{
+color: green;
+}
+
 .about {
     background: rgb(26, 188, 156);
     width: 100%;
