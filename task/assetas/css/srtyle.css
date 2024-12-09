@@ -1,0 +1,262 @@
+body{
+    /* background: rgb(252,70,107);
+    background: radial-gradient(circle, rgba(252,70,107,1) 0%, rgba(63,94,251,1) 17%, rgba(91,88,255,1) 60%); */
+    height: 500vh;
+}
+
+.text img{
+ /* text-decoration: none; */
+ color: black;
+ width:50px ;
+ border-radius: 50px;
+ margin-left: 100px;
+}
+
+.text .logo_left img{
+    margin-right: 10px;    
+}
+
+.text span{
+    font-size: 40px;
+}
+
+.text p{
+    font-size: 20px;
+  color: palevioletred;
+}
+
+.home ul{
+    list-style: none;
+}
+
+.home i span{
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.home li{
+    margin-right: 10px;
+}
+
+.home li:not(:last-child){
+    margin-left: 40px;
+}
+
+
+.text:not(:last-child){
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+
+li {
+    position: relative; 
+    padding: 10px;
+    list-style-type: none;
+    cursor: pointer;
+  }
+  
+  li::before, li::after {
+    content: ''; 
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    background-color: transparent; 
+    border-radius: 50%; 
+    left: 0;
+    transition: width 0.4s ease, opacity 0.4s ease; 
+  }
+  
+  li::before {
+    top: -10px; 
+    width: 0%; 
+    opacity: 0; 
+    border-top: 3px solid blue; 
+  }
+  
+  li::after {
+    bottom: -10px; 
+    width: 0%; 
+    opacity: 0; 
+    border-bottom: 3px solid blue; 
+  }
+  
+  li:hover::before, li:hover::after {
+    width: 80%; 
+    opacity: 1; 
+  }
+  
+  
+
+  
+  
+
+.text p{
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+.discover{
+    padding-top: 100px;
+    color: white;
+    font-size: 40px;
+}
+
+.home ul{
+    display: flex;
+}
+
+.bac{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(20,24,43,1) 0%);
+    height: 600px;
+}
+
+
+
+@media screen and (max-width: 602px){
+    .d-none-md{
+        display: none;
+    }  
+}
+
+@media screen and (min-width: 602px){
+    .d-none-lg{
+        display: block;
+        display: none;
+    }
+}
+
+.discoveri  i{
+    /* padding: 10x 20px;
+    font-size: 36px; */
+    color: white;
+    border: 2px solid skyblue;
+    width: 70px;
+    height: 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    /* transition: transform 0.3s ease background-color 0.3s ease; */
+}
+
+ .discover i:hover{ 
+ transform: scale(1.1);
+ transition: 0.5s;
+ color: green;
+}
+
+
+.left img{
+    border: 2px double red;
+ width: 300px;
+ height: 150px;
+}
+
+.web{
+    position: relative;
+    bottom: 190px;
+    top: 0;
+    float: inline-end;
+}
+
+
+img{
+    margin-left: 30px;
+}
+
+.container{
+    /* display: flex; */
+    flex-direction: column;
+    gap: 20px;
+    transition: 0.5s ease;
+padding-bottom: 50px;
+}
+
+.color{
+    background-color: grey;
+    padding: 30px;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.item img{
+    width: 250px;
+    height: auto;
+}
+.container:hover{
+    color: red;
+    
+}
+
+.container_img {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transition: 0.5s ease;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.img img{
+    width: 250px;
+    height: auto;
+}
+
+.container_img:hover{
+    color: green;
+}
+
+.li i{
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.city span{
+   position: relative;
+   left: 800px;
+   bottom: 500px;
+}
+
+.button_log{
+    position: relative;
+    left: 800px;
+    bottom: 450px;
+}
+ 
+.loc i{
+    font-size: 40px;
+}
+
+ .borders  span{
+    padding-left: 10px;
+    font-size: 12px;
+    color: red;
+    letter-spacing: 1px;
+ }
+
+ .borders i{
+    font-size: 12px;
+    color: red;
+ }
+
+ .icon_logo i {
+    color: blue;
+    font-size: 22px;
+    margin-left: 10px;
+    position: relative;
+    left: 900px;
+ }
+
+ .icon_logo p{
+    margin-left: 900px;
+ }
