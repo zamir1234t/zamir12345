@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slider{
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: auto;
+    touch-action: pan-up;
+}
+
+.slide{
+    min-width: 100vw;
+    height: 100vh;
+    scroll-snap-type: auto;
+}
+
+span{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

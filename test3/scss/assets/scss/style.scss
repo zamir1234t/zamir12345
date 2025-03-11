@@ -1,0 +1,57 @@
+// @import url('./utlis/mixin.scss');
+// body{
+//     $button-bg: #3498db; 
+// $button-text-color: #fff; 
+// $button-padding: 12px 24px; 
+// $button-font-size: 16px; 
+// }
+
+body{
+    .li{
+        width: 100%;
+        position: relative;
+        z-index: 2;
+        background-color: black;
+        ul{
+            list-style: none;
+            li{
+                margin-left: 10px;
+                cursor: pointer;
+                user-select: none;
+            }
+          }
+          .lucas{
+            user-select: none;
+          } 
+    }
+    .icon i{
+        margin: 10px;
+        cursor: pointer;
+    }
+    .firlan{
+        position: relative;
+        z-index: 1; 
+        padding: 50px;
+        user-select: none;
+       
+        .img{
+           position: relative;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 2;
+            
+           
+            img:hover{
+                filter: brightness(0.4) saturate(100%) hue-rotate(1deg);
+                cursor: pointer;
+                padding: 20px 20px 20px 20px;
+              background-color: coral;
+            }
+        }
+    }
+  height: 500vh;
+  background-color: rgb(59, 35, 35);
+}
+

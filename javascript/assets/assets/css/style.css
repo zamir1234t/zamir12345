@@ -1,0 +1,120 @@
+/* .conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 10px;
+   margin-top: 50px;
+}
+
+.box1{
+    display: flex;
+    background-color: red;
+    font-size: 20px;
+    padding: 100px;
+}
+
+.box2{
+    display: flex;
+    background-color: blue;
+    font-size: 20px;
+    padding: 100px;
+}
+
+.box3{
+    display: flex;
+    background-color: green;
+    font-size: 20px;
+    padding: 100px;
+}
+
+.box4{
+    display: flex;
+    background-color: yellow;
+    font-size: 20px;
+    padding: 100px;
+}
+
+.box5{
+    display: flex;
+    font-size: 20px;
+    transition: 2s ease;
+    padding: 100px;
+}
+
+.box5:hover{
+    background-color: black;
+    color: white;
+}
+.conteiner span{
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 100;
+    color: red;
+}
+
+@media (max-width: 502px){
+    .display-none{
+        display: none;
+    }
+}
+i{
+    color: red;
+    user-select: none;
+}
+
+abbr{
+    text-decoration: none !important;
+    cursor: default !important;
+}   
+
+img{
+   width: 300px;
+   margin-top: 10px;
+   margin-right: 10px;
+}
+
+.lox img{
+    margin-left: 100px; 
+}
+
+img:hover{
+    filter: brightness(0.5) saturate(100%) hue-rotate(1deg);
+    padding: 20px 20px 20px 20px;
+    background-color: red;
+    transition: calc(1.6);
+}
+
+@media (min-width: 500px){
+    .display-blok{
+        display: block;
+    }
+} */
+
+.loci:hover{
+    background-color: blue;
+    color: white;
+}
+
+.loci{
+    transition: 500ms;
+    padding: 20px;
+}
+
+button{
+    border: 1px red double;
+    border-radius: 10px;
+}
+
+#button{
+    cursor: pointer;
+}
+
+.dem{
+    display: flex;
+    justify-content: center;
+}
+
+.gg {
+    display: flex;
+    justify-content: center;
+}

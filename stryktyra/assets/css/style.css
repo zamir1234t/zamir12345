@@ -1,0 +1,98 @@
+/* .boxs{
+    display: flex;
+} */
+/* 
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 img{
+    width: 100px;
+}
+
+span{
+  margin-left: 20px;
+  float: inline-end;
+} */
+
+
+/* .text{
+    font-size: 4rem;
+    color: black;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 1rem;
+   user-select: none;
+}
+
+
+
+.Letter{
+    transition: transform 0.5s, opacity 0.3s;
+    cursor: pointer;
+    animation: spin 2s linear infinite ;
+      
+}
+
+.Letter:hover{
+    transform: rotateZ(360deg);
+    color: #fff; 
+   text-shadow: 0 0 5px red, 0 0 20px red;
+} */
+
+/* .box{
+    background-color: rgb(255, 94, 0) ;
+    height: 600px;
+}
+
+ul{
+    justify-content: center;
+    color: white;
+    list-style: none;
+}
+
+li{
+    margin-left: 50px;
+    color: blue;
+    transition: 500ms;
+    margin-top: 30px;
+}
+
+li:hover{
+    color: yellow;
+}
+
+.paragrof img{
+    border: 1px solid;
+} */
+
+
+/* .text {
+    
+    height: 100vh;      
+    background-image: url('https://media.gettyimages.com/id/974579630/photo/roza.jpg?s=612x612&w=gi&k=20&c=g24APFTuFOa-tYdbuybNK6hrAm4F37siidRhV41vZiU=');
+    background-size: cover;
+    background-position: center; 
+    position: relative;  
+  }
+  
+  .overlay-text {
+    position: absolute;  
+    top: 50%;            
+    left: 50%;          
+    transform: translate(-50%, -50%); 
+    color: white;        
+    text-align: center;  
+  }
+   */
+
+.box{
+    height: 100vh;
+    /* background-image: url('https://img.freepik.com/free-photo/view-beautiful-blooming-roses_23-2150718767.jpg'); */
+    background-size: cover;
+}
+
+
